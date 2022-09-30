@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity4">
+
+    <TextView
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="  배드민턴의 유래는 그 기원이 확실하지는 않지만, 9세기 전반부터 인도의 봄베이 주 후나 부근에서 하고 있던 '푸나(Poona)'라는 게임이 1873년 인도에 주둔하고 있던 영국 육군장교에 의하여 영국본토에 전해졌다."
+        >
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/badminturnjjall">
+    </ImageView>
+
+</LinearLayout>

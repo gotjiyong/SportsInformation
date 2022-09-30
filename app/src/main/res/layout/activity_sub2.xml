@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity2">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text=" 영국을 침입한 덴마크 왕자의 머리를 잘라 차고 놀았다는 설이나, 영국 동부지방을 점령했던 덴마크인들이 물러나자 영국인들이 그들의 영혼에 복수하기 위해 바이킹 전사들의 무덤을 파헤쳐 거기에서 나온 두개골을 공삼아 발로 차 논 것이 축구의 기원이라는 설이다."
+        tools:layout_editor_absoluteX="-146dp"
+        tools:layout_editor_absoluteY="-16dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/soccerjjal">
+    </ImageView>
+
+</LinearLayout>

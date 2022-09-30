@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity3">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="양궁의 역사는 1538년 영국의 헨리 8세가 처음으로 대회를 열었던 것으로 알려져있다. 그 후부터 전유럽에 널리 보급되어 1931년에는 국제양궁연맹이 조직되었다. 현대적인 의미의 양궁이 제대로 채택된 것은 1972년부터로 이 당시에는 개인전 한 종목 (남/녀 각각)만 있었다.">
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/hwaljjal">
+    </ImageView>
+
+</LinearLayout>

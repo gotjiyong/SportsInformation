@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    <TextView
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  수영(水泳) 또는 헤엄(문화어: 헤염)은 팔, 다리를 움직여 수면 또는 수중을 이동하는 것을 말한다. 스포츠 경기 종목뿐만 아니라, 물놀이나 다이빙 등의 행위를 총칭하는 말로서 흔히 사용된다.
+물 속에 떠 있으면서 여러 가지 동작으로 물을 헤치고 나아가는 동작으로서 수영은 원시 시대부터 교통 수단의 하나로 실시되었고, 그 후에 전투나 직업과 연관되어 발달하던 것이 19세기에는 경영(競泳)을 중심으로 성행되었다. 1900년대 초에는 크롤 수영법도 고안되었다">
+    </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/swimjjal"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1">
+
+   <Button
+       android:id="@+id/btn_swim"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="10"
+       android:background="@drawable/swim"
+       android:rotation="0"
+       android:rotationX="0"
+       android:rotationY="0" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1">
+
+         <TextView
+             android:textSize="25sp"
+             android:textStyle="bold"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:text="수 영">
+         </TextView>
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/btn_soccer"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="10"
+          android:background="@drawable/soccer"
+          android:rotation="0"
+          android:rotationX="0"
+          android:rotationY="0" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1">
+
+         <TextView
+             android:textStyle="bold"
+             android:textSize="25sp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:text="축 구">
+         </TextView>
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1">
+
+      <Button
+          android:id="@+id/btn_hwal"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="10"
+          android:background="@drawable/hwall"
+          android:rotation="0"
+          android:rotationX="0"
+          android:rotationY="0" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1">
+
+         <TextView
+             android:textSize="25sp"
+             android:textStyle="bold"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:text="양 궁">
+         </TextView>
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/btn_badminturn"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="10"
+          android:background="@drawable/badminturn"
+          android:rotation="0"
+          android:rotationX="0"
+          android:rotationY="0" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1">
+
+         <TextView
+             android:textStyle="bold"
+             android:textSize="25sp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:text="배드민턴">
+         </TextView>
+   </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
